@@ -1,48 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-    body{
-    background-color: rgb(25, 25, 25);
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
+body {
+  background-color: rgb(25, 25, 25);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
 }
-.container{
-    max-width: 1100px;
-    width: 100%;
-   margin-left: 27rem;
-   margin-top: 50px;
-
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 50px auto;
 }
-.title{
-    font-size: 30px;
-    font-weight: 500;
+.title {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
 }
-.move-icon{
-    height: 50px;
+.move-icon {
+  height: 50px;
 }
-.move-button{
-    background-color: transparent;
-    border: 3px solid white;
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
-    margin-right: 10px;
-    cursor: pointer;
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
 }
-.result{
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 50px;
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
-.score{
-    margin-top: 60px;
+.score {
+  margin-top: 60px;
 }
 .reset-score-button,
-.auto-play-button{
-    background-color: white;
-    font-size: 15px;
-    border: 0;
-    padding: 8px 15px;
-    cursor: pointer;
+.auto-play-button {
+  background-color: white;
+  font-size: 15px;
+  border: 0;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+/* Button container */
+.button-container,
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
 }
